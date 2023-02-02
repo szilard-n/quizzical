@@ -1,0 +1,95 @@
+.app {
+    background: #F5F7FB;
+    width: 900px;
+    min-height: 650px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 75px 10px 75px;
+
+    border-radius: 10px;
+}
+
+.app--back-arrow {
+    cursor: pointer;
+
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.app--starting-view {
+    text-align: center;
+}
+
+.app--starting-view-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 32px;
+    color: #293264;
+}
+
+.app--starting-view-description {
+    margin: 7px 0 30px 0;
+    font-weight: 400;
+    color: #293264;
+}
+
+.app--dropdown {
+    color: #4d5b9e;
+    background: #F5F7FB;
+    border: 1px solid #4d5b9e;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.app--dropdown-margin {
+    margin: 30px 0;
+}
+
+.app--dropdown-menu {
+    padding: 0 30px 20px 30px;
+}
+
+.app--dropdown-menu > * {
+    margin: 3px 0;
+}
+
+.app--dropdown-menu > *:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+.app--starting-view-button {
+    color: #F5F7FB;
+
+    background: #4D5B9E;
+    border: #4D5B9E;
+    cursor: pointer;
+
+    height: 52px;
+    width: 193px;
+    border-radius: 15px;
+}
+
+
+.app--yellow-blob {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 10px;
+}
+
+.app--blue-blob {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 10px;
+}
